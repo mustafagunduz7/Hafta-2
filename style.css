@@ -1,0 +1,93 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(52,58,64,1) 25%, rgba(52,58,64,1) 75%, rgba(0,0,0,1) 100%);
+}
+header{
+    display: inline;
+    position: relative;
+    margin: 25%; 
+}
+header img{
+    border-radius: 10px;
+}
+header h1{
+    display: inline block;
+    position: relative;
+    margin-left: 1100px;
+    bottom: 200px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 50px;
+    font-family: cursive ;
+}
+nav{ 
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+nav a{
+    display: inline-block;
+    margin-top: 100px;  
+    font-size: 25px;    
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 50px 0 10px;
+    text-shadow: 3px 3px 3px salmon;
+    border-left: 5px solid salmon;
+}
+nav a:hover{
+    font-size: 28px;
+}
+article{
+    width: 50%;
+    margin: -50px 25%;
+    background-color: #495057;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+article h2{
+    display: inline-block ;
+    margin-top: 150px;   
+    font-size: 40px;
+    border-bottom: 5px solid salmon ;
+}
+article p{
+    padding: 5% 10%;
+    line-height: 30px;
+}
+article ul{
+    display: inline;
+    line-height: 50px;
+    list-style: none;
+}
+.citation{
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 3cap;
+}
+.books li:hover{
+    font-size: 20px;
+    border-bottom: 5px solid salmon ;
+    border-top: 5px solid salmon;
+}
+footer{
+   width: 100%;
+   height: 50px;
+   background-color: #495057;
+   color: rgb(42, 47, 51);
+   text-align: center;
+   font-size: 20px;
+   margin-top: 100px;
+   padding: 10px;
+}
+footer p:hover{
+    color: salmon;
+}
